@@ -1,0 +1,1064 @@
+2015-01-07 00:37:59.549 [info] <0.7.0> Application lager started on node chat@bunlong
+2015-01-07 00:37:59.561 [info] <0.7.0> Application crypto started on node chat@bunlong
+2015-01-07 00:37:59.572 [notice] <0.63.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2015-01-07 00:37:59.584 [info] <0.7.0> Application mimetypes started on node chat@bunlong
+2015-01-07 00:37:59.657 [info] <0.95.0> Starting Boss in development mode....
+
+2015-01-07 00:37:59.671 [info] <0.95.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:37:59.734 [info] <0.95.0> Starting master services on chat@bunlong
+
+2015-01-07 00:37:59.751 [info] <0.7.0> Application tinymq started on node chat@bunlong
+2015-01-07 00:37:59.801 [info] <0.95.0> SSL:[]
+
+2015-01-07 00:37:59.806 [info] <0.95.0> Starting cowboy... on chat@bunlong
+
+2015-01-07 00:37:59.818 [info] <0.7.0> Application cowlib started on node chat@bunlong
+2015-01-07 00:37:59.832 [info] <0.7.0> Application ranch started on node chat@bunlong
+2015-01-07 00:37:59.868 [info] <0.7.0> Application cowboy started on node chat@bunlong
+2015-01-07 00:37:59.868 [info] <0.95.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-01-07 00:37:59.969 [info] <0.264.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:38:00.013 [warning] <0.6.0> lager_error_logger_h dropped 70 messages in the last second that exceeded the limit of 50 messages/sec
+2015-01-07 00:38:00.013 [info] <0.311.0> Starting Boss in development mode....
+
+2015-01-07 00:38:00.013 [info] <0.311.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:38:00.018 [info] <0.311.0> Starting master services on chat@bunlong
+
+2015-01-07 00:38:00.019 [info] <0.311.0> SSL:[]
+
+2015-01-07 00:38:00.020 [info] <0.311.0> Starting cowboy... on chat@bunlong
+
+2015-01-07 00:38:00.020 [info] <0.311.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-01-07 00:38:00.041 [info] <0.356.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:38:00.042 [error] <0.355.0> Supervisor {<0.355.0>,boss_router_sup} had child router_controller started with boss_router_controller:start_link([{application,chat},{controllers,["chat_chat_controller"]}]) at undefined exit with reason no function clause matching boss_router_controller:'-load/1-fun-0-'({"/",{"chat","live",[{channel,"public"}]}}, 1) line 98 in context start_error
+2015-01-07 00:38:00.042 [error] <0.356.0> CRASH REPORT Process <0.356.0> with 0 neighbours exited with reason: no function clause matching boss_router_controller:'-load/1-fun-0-'({"/",{"chat","live",[{channel,"public"}]}}, 1) line 98 in gen_server:init_it/6 line 330
+2015-01-07 00:38:00.043 [error] <0.94.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.311.0> exit with reason {shutdown,{failed_to_start_child,router_controller,{function_clause,[{boss_router_controller,'-load/1-fun-0-',[{"/",{"chat","live",[{channel,"public"}]}},1],[{file,"src/boss/boss_router_controller.erl"},{line,98}]},{lists,foldl,3,[{file,"lists.erl"},{line,1261}]},{boss_router_controller,init,1,[{file,"src/boss/boss_router_controller.erl"},{line,49}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}} in context child_terminated
+2015-01-07 00:38:00.043 [error] <0.326.0> Supervisor {<0.326.0>,poolboy_sup} had child boss_session_controller started with boss_session_controller:start_link([{name,{local,boss_session_pool}},{worker_module,boss_session_controller},{size,20},{max_overflow,...},...]) at undefined exit with reason shutdown in context shutdown_error
+2015-01-07 00:38:00.498 [info] <0.358.0> Starting Boss in development mode....
+
+2015-01-07 00:38:00.498 [info] <0.358.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:38:00.505 [info] <0.358.0> Starting master services on chat@bunlong
+
+2015-01-07 00:38:00.507 [info] <0.358.0> SSL:[]
+
+2015-01-07 00:38:00.507 [info] <0.358.0> Starting cowboy... on chat@bunlong
+
+2015-01-07 00:38:00.507 [info] <0.358.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-01-07 00:38:00.524 [info] <0.403.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:38:00.526 [error] <0.402.0> Supervisor {<0.402.0>,boss_router_sup} had child router_controller started with boss_router_controller:start_link([{application,chat},{controllers,["chat_chat_controller"]}]) at undefined exit with reason no function clause matching boss_router_controller:'-load/1-fun-0-'({"/",{"chat","live",[{channel,"public"}]}}, 1) line 98 in context start_error
+2015-01-07 00:38:00.526 [error] <0.403.0> CRASH REPORT Process <0.403.0> with 0 neighbours exited with reason: no function clause matching boss_router_controller:'-load/1-fun-0-'({"/",{"chat","live",[{channel,"public"}]}}, 1) line 98 in gen_server:init_it/6 line 330
+2015-01-07 00:38:00.526 [error] <0.94.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.358.0> exit with reason {shutdown,{failed_to_start_child,router_controller,{function_clause,[{boss_router_controller,'-load/1-fun-0-',[{"/",{"chat","live",[{channel,"public"}]}},1],[{file,"src/boss/boss_router_controller.erl"},{line,98}]},{lists,foldl,3,[{file,"lists.erl"},{line,1261}]},{boss_router_controller,init,1,[{file,"src/boss/boss_router_controller.erl"},{line,49}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}} in context child_terminated
+2015-01-07 00:38:00.527 [error] <0.373.0> Supervisor {<0.373.0>,poolboy_sup} had child boss_session_controller started with boss_session_controller:start_link([{name,{local,boss_session_pool}},{worker_module,boss_session_controller},{size,20},{max_overflow,...},...]) at undefined exit with reason shutdown in context shutdown_error
+2015-01-07 00:38:00.806 [info] <0.405.0> Starting Boss in development mode....
+
+2015-01-07 00:38:00.807 [info] <0.405.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:38:00.814 [info] <0.405.0> Starting master services on chat@bunlong
+
+2015-01-07 00:38:00.816 [info] <0.405.0> SSL:[]
+
+2015-01-07 00:38:00.816 [info] <0.405.0> Starting cowboy... on chat@bunlong
+
+2015-01-07 00:38:00.816 [info] <0.405.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-01-07 00:38:00.860 [info] <0.452.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:38:00.909 [info] <0.499.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:38:00.963 [info] <0.546.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:38:01.014 [warning] <0.6.0> lager_error_logger_h dropped 1 messages in the last second that exceeded the limit of 50 messages/sec
+2015-01-07 00:38:01.014 [info] <0.593.0> Starting Boss in development mode....
+
+2015-01-07 00:38:01.015 [info] <0.593.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:38:01.021 [info] <0.593.0> Starting master services on chat@bunlong
+
+2015-01-07 00:38:01.024 [info] <0.593.0> SSL:[]
+
+2015-01-07 00:38:01.025 [info] <0.593.0> Starting cowboy... on chat@bunlong
+
+2015-01-07 00:38:01.025 [info] <0.593.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-01-07 00:38:01.041 [info] <0.638.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:38:01.043 [error] <0.637.0> Supervisor {<0.637.0>,boss_router_sup} had child router_controller started with boss_router_controller:start_link([{application,chat},{controllers,["chat_chat_controller"]}]) at undefined exit with reason no function clause matching boss_router_controller:'-load/1-fun-0-'({"/",{"chat","live",[{channel,"public"}]}}, 1) line 98 in context start_error
+2015-01-07 00:38:01.043 [error] <0.638.0> CRASH REPORT Process <0.638.0> with 0 neighbours exited with reason: no function clause matching boss_router_controller:'-load/1-fun-0-'({"/",{"chat","live",[{channel,"public"}]}}, 1) line 98 in gen_server:init_it/6 line 330
+2015-01-07 00:38:01.044 [error] <0.94.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.593.0> exit with reason {shutdown,{failed_to_start_child,router_controller,{function_clause,[{boss_router_controller,'-load/1-fun-0-',[{"/",{"chat","live",[{channel,"public"}]}},1],[{file,"src/boss/boss_router_controller.erl"},{line,98}]},{lists,foldl,3,[{file,"lists.erl"},{line,1261}]},{boss_router_controller,init,1,[{file,"src/boss/boss_router_controller.erl"},{line,49}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}} in context child_terminated
+2015-01-07 00:38:01.044 [error] <0.608.0> Supervisor {<0.608.0>,poolboy_sup} had child boss_session_controller started with boss_session_controller:start_link([{name,{local,boss_session_pool}},{worker_module,boss_session_controller},{size,20},{max_overflow,...},...]) at undefined exit with reason shutdown in context shutdown_error
+2015-01-07 00:38:01.342 [info] <0.640.0> Starting Boss in development mode....
+
+2015-01-07 00:38:01.343 [info] <0.640.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:38:01.347 [info] <0.640.0> Starting master services on chat@bunlong
+
+2015-01-07 00:38:01.349 [info] <0.640.0> SSL:[]
+
+2015-01-07 00:38:01.350 [info] <0.640.0> Starting cowboy... on chat@bunlong
+
+2015-01-07 00:38:01.350 [info] <0.640.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-01-07 00:38:01.373 [info] <0.685.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:38:01.374 [error] <0.685.0> CRASH REPORT Process <0.685.0> with 0 neighbours exited with reason: no function clause matching boss_router_controller:'-load/1-fun-0-'({"/",{"chat","live",[{channel,"public"}]}}, 1) line 98 in gen_server:init_it/6 line 330
+2015-01-07 00:38:01.375 [error] <0.684.0> Supervisor {<0.684.0>,boss_router_sup} had child router_controller started with boss_router_controller:start_link([{application,chat},{controllers,["chat_chat_controller"]}]) at undefined exit with reason no function clause matching boss_router_controller:'-load/1-fun-0-'({"/",{"chat","live",[{channel,"public"}]}}, 1) line 98 in context start_error
+2015-01-07 00:38:01.376 [error] <0.94.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.640.0> exit with reason {shutdown,{failed_to_start_child,router_controller,{function_clause,[{boss_router_controller,'-load/1-fun-0-',[{"/",{"chat","live",[{channel,"public"}]}},1],[{file,"src/boss/boss_router_controller.erl"},{line,98}]},{lists,foldl,3,[{file,"lists.erl"},{line,1261}]},{boss_router_controller,init,1,[{file,"src/boss/boss_router_controller.erl"},{line,49}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}} in context child_terminated
+2015-01-07 00:38:01.376 [error] <0.655.0> Supervisor {<0.655.0>,poolboy_sup} had child boss_session_controller started with boss_session_controller:start_link([{name,{local,boss_session_pool}},{worker_module,boss_session_controller},{size,20},{max_overflow,...},...]) at undefined exit with reason shutdown in context shutdown_error
+2015-01-07 00:38:01.376 [error] <0.655.0> Supervisor {<0.655.0>,poolboy_sup} had child boss_session_controller started with boss_session_controller:start_link([{name,{local,boss_session_pool}},{worker_module,boss_session_controller},{size,20},{max_overflow,...},...]) at undefined exit with reason noproc in context shutdown_error
+2015-01-07 00:38:01.723 [info] <0.687.0> Starting Boss in development mode....
+
+2015-01-07 00:38:01.724 [info] <0.687.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:38:01.727 [info] <0.687.0> Starting master services on chat@bunlong
+
+2015-01-07 00:38:01.728 [info] <0.687.0> SSL:[]
+
+2015-01-07 00:38:01.729 [info] <0.687.0> Starting cowboy... on chat@bunlong
+
+2015-01-07 00:38:10.194 [warning] <0.6.0> lager_error_logger_h dropped 2 messages in the last second that exceeded the limit of 50 messages/sec
+2015-01-07 00:38:10.194 [error] emulator Error in process <0.737.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:38:10.194 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.737.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:38:15.259 [error] emulator Error in process <0.739.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:38:15.259 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.739.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:38:16.065 [error] emulator Error in process <0.740.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:38:16.066 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.740.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:38:16.496 [error] emulator Error in process <0.741.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:38:16.497 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.741.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:38:20.517 [error] emulator Error in process <0.742.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:38:20.517 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.742.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:38:24.245 [error] emulator Error in process <0.743.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:38:24.245 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.743.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:38:46.767 [error] emulator Error in process <0.745.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:38:46.768 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.745.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:38:47.572 [error] emulator Error in process <0.746.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:38:47.572 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.746.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:38:48.032 [error] emulator Error in process <0.747.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:38:48.033 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.747.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:38:48.419 [error] emulator Error in process <0.748.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:38:48.419 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.748.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:38:48.835 [error] emulator Error in process <0.749.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:38:48.835 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.749.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:38:49.620 [error] emulator Error in process <0.750.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:38:49.620 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.750.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:38:50.476 [error] emulator Error in process <0.751.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:38:50.476 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.751.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:38:51.022 [error] emulator Error in process <0.752.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:38:51.023 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.752.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:38:54.944 [error] emulator Error in process <0.753.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:38:54.945 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.753.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:39:02.425 [error] emulator Error in process <0.755.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:39:02.425 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.755.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:39:12.094 [info] <0.7.0> Application lager started on node chat@bunlong
+2015-01-07 00:39:12.106 [info] <0.7.0> Application crypto started on node chat@bunlong
+2015-01-07 00:39:12.131 [info] <0.7.0> Application mimetypes started on node chat@bunlong
+2015-01-07 00:39:12.161 [notice] <0.63.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2015-01-07 00:39:12.202 [info] <0.95.0> Starting Boss in development mode....
+
+2015-01-07 00:39:12.219 [info] <0.95.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:39:12.290 [info] <0.95.0> Starting master services on chat@bunlong
+
+2015-01-07 00:39:12.306 [info] <0.7.0> Application tinymq started on node chat@bunlong
+2015-01-07 00:39:12.342 [info] <0.95.0> SSL:[]
+
+2015-01-07 00:39:12.347 [info] <0.95.0> Starting cowboy... on chat@bunlong
+
+2015-01-07 00:39:12.355 [info] <0.7.0> Application cowlib started on node chat@bunlong
+2015-01-07 00:39:12.363 [info] <0.7.0> Application ranch started on node chat@bunlong
+2015-01-07 00:39:12.387 [info] <0.7.0> Application cowboy started on node chat@bunlong
+2015-01-07 00:39:12.387 [info] <0.95.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-01-07 00:39:12.458 [info] <0.95.0>@boss_load:load_all_modules:57 Loading application chat
+2015-01-07 00:39:12.475 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/mail/chat_outgoing_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:39:12.524 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/mail/chat_incoming_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:39:12.556 [info] <0.95.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:39:12.556 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:39:12.597 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/model/message.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:39:12.597 [info] <0.95.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,9},message},{',',{1,16}},{'[',{1,18}},{var,{1,19},'Id'},{',',{1,21}},{var,{1,23},'Text'},{',',{1,27}},{var,{1,29},'Nickname'},{',',{1,37}},{var,{1,39},'MessageTime'},{']',{1,50}},{')',{1,51}},{dot,{1,52}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,10},export_all},{')',{2,20}},{dot,{2,21}}]
+2015-01-07 00:39:12.597 [notice] <0.95.0>@boss_record_compiler:make_generated_forms:225 Module "message" Parameters ['Id','Text','Nickname','MessageTime'] Attributes[{compile,export_all}]
+2015-01-07 00:39:12.652 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/view/lib/tag_modules/chat_custom_tags.erl" with options [{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:39:12.673 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/view/lib/filter_modules/chat_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:39:12.675 [info] <0.95.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  chat_view_lib_tags
+2015-01-07 00:39:12.811 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/init/chat_01_news.erl" with options [{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]}] 
+2015-01-07 00:39:14.403 [notice] <0.276.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:39:14.407 [warning] <0.6.0> lager_error_logger_h dropped 33 messages in the last second that exceeded the limit of 50 messages/sec
+2015-01-07 00:39:14.407 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:39:14.411 [error] <0.276.0> GET / [chat] 404 0ms
+2015-01-07 00:39:19.310 [notice] <0.277.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:39:19.311 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:39:19.329 [error] <0.262.0> gen_server <0.262.0> terminated with reason: {'module could not be loaded',[{chat_chat_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,202}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,157}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},...]}
+2015-01-07 00:39:19.329 [error] <0.262.0> CRASH REPORT Process <0.262.0> with 0 neighbours exited with reason: call to undefined function chat_chat_controller:module_info(attributes) in gen_server:terminate/7 line 804
+2015-01-07 00:39:19.329 [error] <0.261.0> Supervisor {<0.261.0>,boss_router_sup} had child router_controller started with boss_router_controller:start_link([{application,chat},{controllers,["chat_chat_controller"]}]) at <0.262.0> exit with reason call to undefined function chat_chat_controller:module_info(attributes) in context child_terminated
+2015-01-07 00:39:19.330 [error] <0.277.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: exit:{{undef,[{chat_chat_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,202}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,157}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},{gen_server,call,[<0.262.0>,{route,"/chat"}]}}. Stacktrace: [{gen_server,call,2,[{file,"gen_server.erl"},{line,182}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,237}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]},{boss_web_controller_handle_request,build_dynamic_response,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,122}]},{boss_web_controller_handle_request,handle_request,3,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]
+2015-01-07 00:39:19.330 [info] <0.281.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:39:27.630 [notice] <0.283.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:39:27.630 [info] <0.281.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:39:27.646 [info] <0.283.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:39:27.646 [notice] <0.283.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:39:27.675 [info] <0.283.0> GET /chat/live/public [chat] 200 0ms
+2015-01-07 00:39:37.144 [notice] <0.289.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:39:37.145 [info] <0.281.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:39:37.163 [info] <0.289.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:39:37.163 [notice] <0.289.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:39:37.181 [info] <0.289.0> GET /chat/live/public [chat] 200 0ms
+2015-01-07 00:39:49.393 [notice] <0.295.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:39:49.393 [info] <0.281.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:39:49.425 [error] <0.281.0> gen_server <0.281.0> terminated with reason: {'module could not be loaded',[{chat_chat_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,202}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,157}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},...]}
+2015-01-07 00:39:49.426 [error] <0.281.0> CRASH REPORT Process <0.281.0> with 0 neighbours exited with reason: call to undefined function chat_chat_controller:module_info(attributes) in gen_server:terminate/7 line 804
+2015-01-07 00:39:49.426 [error] <0.295.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: exit:{{undef,[{chat_chat_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,202}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,157}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},{gen_server,call,[<0.281.0>,{route,"/chat"}]}}. Stacktrace: [{gen_server,call,2,[{file,"gen_server.erl"},{line,182}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,237}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]},{boss_web_controller_handle_request,build_dynamic_response,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,122}]},{boss_web_controller_handle_request,handle_request,3,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]
+2015-01-07 00:39:49.426 [error] <0.261.0> Supervisor {<0.261.0>,boss_router_sup} had child router_controller started with boss_router_controller:start_link([{application,chat},{controllers,["chat_chat_controller"]}]) at <0.281.0> exit with reason call to undefined function chat_chat_controller:module_info(attributes) in context child_terminated
+2015-01-07 00:39:49.429 [info] <0.301.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:39:53.023 [notice] <0.296.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:39:53.024 [info] <0.301.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:39:53.046 [info] <0.296.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:39:53.046 [notice] <0.296.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:39:53.068 [info] <0.296.0> GET /chat/index [chat] 200 0ms
+2015-01-07 00:39:55.071 [notice] <0.305.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:39:55.072 [info] <0.301.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:39:55.094 [info] <0.305.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:39:55.094 [notice] <0.305.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:39:55.115 [info] <0.305.0> GET /chat/live/public [chat] 200 0ms
+2015-01-07 00:43:43.223 [error] <0.110.0> Supervisor {<0.110.0>,poolboy_sup} had child boss_session_controller started with boss_session_controller:start_link([{name,{local,boss_session_pool}},{worker_module,boss_session_controller},{size,20},{max_overflow,...},...]) at undefined exit with reason shutdown in context shutdown_error
+2015-01-07 00:43:48.651 [info] <0.7.0> Application lager started on node chat@bunlong
+2015-01-07 00:43:48.662 [notice] <0.63.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2015-01-07 00:43:48.674 [info] <0.7.0> Application crypto started on node chat@bunlong
+2015-01-07 00:43:48.696 [info] <0.7.0> Application mimetypes started on node chat@bunlong
+2015-01-07 00:43:48.774 [info] <0.95.0> Starting Boss in development mode....
+
+2015-01-07 00:43:48.791 [info] <0.95.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:43:48.853 [info] <0.95.0> Starting master services on chat@bunlong
+
+2015-01-07 00:43:48.873 [info] <0.7.0> Application tinymq started on node chat@bunlong
+2015-01-07 00:43:48.909 [info] <0.95.0> SSL:[]
+
+2015-01-07 00:43:48.916 [info] <0.95.0> Starting cowboy... on chat@bunlong
+
+2015-01-07 00:43:48.922 [info] <0.7.0> Application cowlib started on node chat@bunlong
+2015-01-07 00:43:48.928 [info] <0.7.0> Application ranch started on node chat@bunlong
+2015-01-07 00:43:48.947 [info] <0.7.0> Application cowboy started on node chat@bunlong
+2015-01-07 00:43:48.947 [info] <0.95.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-01-07 00:43:49.039 [warning] <0.6.0> lager_error_logger_h dropped 83 messages in the last second that exceeded the limit of 50 messages/sec
+2015-01-07 00:43:49.039 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:43:49.049 [info] <0.95.0>@boss_load:load_all_modules:57 Loading application chat
+2015-01-07 00:43:49.073 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/mail/chat_outgoing_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:43:49.123 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/mail/chat_incoming_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:43:49.148 [info] <0.95.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:43:49.149 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:43:49.189 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/model/message.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:43:49.189 [info] <0.95.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,9},message},{',',{1,16}},{'[',{1,18}},{var,{1,19},'Id'},{',',{1,21}},{var,{1,23},'Text'},{',',{1,27}},{var,{1,29},'Nickname'},{',',{1,37}},{var,{1,39},'MessageTime'},{']',{1,50}},{')',{1,51}},{dot,{1,52}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,10},export_all},{')',{2,20}},{dot,{2,21}}]
+2015-01-07 00:43:49.190 [notice] <0.95.0>@boss_record_compiler:make_generated_forms:225 Module "message" Parameters ['Id','Text','Nickname','MessageTime'] Attributes[{compile,export_all}]
+2015-01-07 00:43:49.248 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/view/lib/tag_modules/chat_custom_tags.erl" with options [{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:43:49.265 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/view/lib/filter_modules/chat_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:43:49.268 [info] <0.95.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  chat_view_lib_tags
+2015-01-07 00:43:49.433 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/init/chat_01_news.erl" with options [{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]}] 
+2015-01-07 00:44:11.716 [notice] <0.276.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:44:11.721 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:44:11.737 [info] <0.276.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:44:11.737 [notice] <0.276.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:44:11.775 [info] <0.276.0> GET /chat/live/public [chat] 200 0ms
+2015-01-07 00:44:18.415 [notice] <0.282.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:44:18.416 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:44:18.438 [info] <0.282.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:44:18.438 [notice] <0.282.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:44:18.456 [error] <0.282.0> GET /chat/login/bunlong [chat] 404 0ms
+2015-01-07 00:44:21.175 [notice] <0.285.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:44:21.176 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:44:21.200 [info] <0.285.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:44:21.200 [notice] <0.285.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:44:21.227 [error] <0.285.0> GET /chat/login/bunlong [chat] 404 0ms
+2015-01-07 00:44:21.554 [notice] <0.288.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:44:21.555 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:44:21.574 [info] <0.288.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:44:21.574 [notice] <0.288.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:44:21.593 [error] <0.288.0> GET /chat/login/bunlong [chat] 404 0ms
+2015-01-07 00:44:22.022 [notice] <0.291.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:44:22.024 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:44:22.041 [info] <0.291.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:44:22.041 [notice] <0.291.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:44:22.061 [error] <0.291.0> GET /chat/login/bunlong [chat] 404 0ms
+2015-01-07 00:44:22.194 [notice] <0.294.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:44:22.195 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:44:22.219 [info] <0.294.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:44:22.220 [notice] <0.294.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:44:22.242 [error] <0.294.0> GET /chat/login/bunlong [chat] 404 0ms
+2015-01-07 00:44:48.338 [notice] <0.297.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:44:48.339 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:44:48.360 [info] <0.297.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:44:48.360 [notice] <0.297.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:44:48.380 [error] <0.297.0> GET /chat/login/Bunlong [chat] 404 0ms
+2015-01-07 00:44:49.392 [notice] <0.300.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:44:49.393 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:44:49.410 [info] <0.300.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:44:49.410 [notice] <0.300.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:44:49.429 [info] <0.300.0> GET /chat/live/public [chat] 200 0ms
+2015-01-07 00:44:52.481 [notice] <0.304.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:44:52.483 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:44:52.503 [info] <0.304.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:44:52.503 [notice] <0.304.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:44:52.521 [error] <0.304.0> GET /chat/login/bunlong [chat] 404 0ms
+2015-01-07 00:45:18.149 [notice] <0.309.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:45:18.152 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:45:18.175 [info] <0.309.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:45:18.175 [notice] <0.309.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:45:18.198 [error] <0.309.0> GET /chat/login/bunlong [chat] 404 0ms
+2015-01-07 00:46:11.562 [info] <0.7.0> Application lager started on node chat@bunlong
+2015-01-07 00:46:11.575 [info] <0.7.0> Application crypto started on node chat@bunlong
+2015-01-07 00:46:11.594 [info] <0.7.0> Application mimetypes started on node chat@bunlong
+2015-01-07 00:46:11.616 [notice] <0.63.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2015-01-07 00:46:11.653 [info] <0.95.0> Starting Boss in development mode....
+
+2015-01-07 00:46:11.667 [info] <0.95.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:46:11.740 [info] <0.95.0> Starting master services on chat@bunlong
+
+2015-01-07 00:46:11.760 [info] <0.7.0> Application tinymq started on node chat@bunlong
+2015-01-07 00:46:11.793 [info] <0.95.0> SSL:[]
+
+2015-01-07 00:46:11.796 [info] <0.95.0> Starting cowboy... on chat@bunlong
+
+2015-01-07 00:46:11.805 [info] <0.7.0> Application cowlib started on node chat@bunlong
+2015-01-07 00:46:11.814 [info] <0.7.0> Application ranch started on node chat@bunlong
+2015-01-07 00:46:11.830 [info] <0.7.0> Application cowboy started on node chat@bunlong
+2015-01-07 00:46:11.830 [info] <0.95.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-01-07 00:46:11.934 [info] <0.264.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:46:11.989 [info] <0.311.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:46:12.012 [warning] <0.6.0> lager_error_logger_h dropped 87 messages in the last second that exceeded the limit of 50 messages/sec
+2015-01-07 00:46:12.012 [info] <0.356.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:46:12.013 [error] <0.356.0> CRASH REPORT Process <0.356.0> with 0 neighbours exited with reason: no function clause matching boss_router_controller:'-load/1-fun-0-'({"/",{"chat","live",[{channel,"public"}]}}, 1) line 98 in gen_server:init_it/6 line 330
+2015-01-07 00:46:12.013 [error] <0.355.0> Supervisor {<0.355.0>,boss_router_sup} had child router_controller started with boss_router_controller:start_link([{application,chat},{controllers,["chat_chat_controller"]}]) at undefined exit with reason no function clause matching boss_router_controller:'-load/1-fun-0-'({"/",{"chat","live",[{channel,"public"}]}}, 1) line 98 in context start_error
+2015-01-07 00:46:12.014 [error] <0.94.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.311.0> exit with reason {shutdown,{failed_to_start_child,router_controller,{function_clause,[{boss_router_controller,'-load/1-fun-0-',[{"/",{"chat","live",[{channel,"public"}]}},1],[{file,"src/boss/boss_router_controller.erl"},{line,98}]},{lists,foldl,3,[{file,"lists.erl"},{line,1261}]},{boss_router_controller,init,1,[{file,"src/boss/boss_router_controller.erl"},{line,49}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}} in context child_terminated
+2015-01-07 00:46:12.014 [error] <0.326.0> Supervisor {<0.326.0>,poolboy_sup} had child boss_session_controller started with boss_session_controller:start_link([{name,{local,boss_session_pool}},{worker_module,boss_session_controller},{size,20},{max_overflow,...},...]) at undefined exit with reason shutdown in context shutdown_error
+2015-01-07 00:46:12.291 [info] <0.358.0> Starting Boss in development mode....
+
+2015-01-07 00:46:12.291 [info] <0.358.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:46:12.298 [info] <0.358.0> Starting master services on chat@bunlong
+
+2015-01-07 00:46:12.300 [info] <0.358.0> SSL:[]
+
+2015-01-07 00:46:12.300 [info] <0.358.0> Starting cowboy... on chat@bunlong
+
+2015-01-07 00:46:12.301 [info] <0.358.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-01-07 00:46:12.319 [info] <0.403.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:46:12.320 [error] <0.402.0> Supervisor {<0.402.0>,boss_router_sup} had child router_controller started with boss_router_controller:start_link([{application,chat},{controllers,["chat_chat_controller"]}]) at undefined exit with reason no function clause matching boss_router_controller:'-load/1-fun-0-'({"/",{"chat","live",[{channel,"public"}]}}, 1) line 98 in context start_error
+2015-01-07 00:46:12.321 [error] <0.403.0> CRASH REPORT Process <0.403.0> with 0 neighbours exited with reason: no function clause matching boss_router_controller:'-load/1-fun-0-'({"/",{"chat","live",[{channel,"public"}]}}, 1) line 98 in gen_server:init_it/6 line 330
+2015-01-07 00:46:12.321 [error] <0.94.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.358.0> exit with reason {shutdown,{failed_to_start_child,router_controller,{function_clause,[{boss_router_controller,'-load/1-fun-0-',[{"/",{"chat","live",[{channel,"public"}]}},1],[{file,"src/boss/boss_router_controller.erl"},{line,98}]},{lists,foldl,3,[{file,"lists.erl"},{line,1261}]},{boss_router_controller,init,1,[{file,"src/boss/boss_router_controller.erl"},{line,49}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}} in context child_terminated
+2015-01-07 00:46:12.322 [error] <0.373.0> Supervisor {<0.373.0>,poolboy_sup} had child boss_session_controller started with boss_session_controller:start_link([{name,{local,boss_session_pool}},{worker_module,boss_session_controller},{size,20},{max_overflow,...},...]) at undefined exit with reason shutdown in context shutdown_error
+2015-01-07 00:46:12.599 [info] <0.405.0> Starting Boss in development mode....
+
+2015-01-07 00:46:12.600 [info] <0.405.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:46:12.604 [info] <0.405.0> Starting master services on chat@bunlong
+
+2015-01-07 00:46:12.606 [info] <0.405.0> SSL:[]
+
+2015-01-07 00:46:12.606 [info] <0.405.0> Starting cowboy... on chat@bunlong
+
+2015-01-07 00:46:12.606 [info] <0.405.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-01-07 00:46:12.622 [info] <0.450.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:46:12.623 [error] <0.450.0> CRASH REPORT Process <0.450.0> with 0 neighbours exited with reason: no function clause matching boss_router_controller:'-load/1-fun-0-'({"/",{"chat","live",[{channel,"public"}]}}, 1) line 98 in gen_server:init_it/6 line 330
+2015-01-07 00:46:12.623 [error] <0.449.0> Supervisor {<0.449.0>,boss_router_sup} had child router_controller started with boss_router_controller:start_link([{application,chat},{controllers,["chat_chat_controller"]}]) at undefined exit with reason no function clause matching boss_router_controller:'-load/1-fun-0-'({"/",{"chat","live",[{channel,"public"}]}}, 1) line 98 in context start_error
+2015-01-07 00:46:12.624 [error] <0.94.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.405.0> exit with reason {shutdown,{failed_to_start_child,router_controller,{function_clause,[{boss_router_controller,'-load/1-fun-0-',[{"/",{"chat","live",[{channel,"public"}]}},1],[{file,"src/boss/boss_router_controller.erl"},{line,98}]},{lists,foldl,3,[{file,"lists.erl"},{line,1261}]},{boss_router_controller,init,1,[{file,"src/boss/boss_router_controller.erl"},{line,49}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}} in context child_terminated
+2015-01-07 00:46:12.624 [error] <0.420.0> Supervisor {<0.420.0>,poolboy_sup} had child boss_session_controller started with boss_session_controller:start_link([{name,{local,boss_session_pool}},{worker_module,boss_session_controller},{size,20},{max_overflow,...},...]) at undefined exit with reason shutdown in context shutdown_error
+2015-01-07 00:46:12.904 [info] <0.452.0> Starting Boss in development mode....
+
+2015-01-07 00:46:12.905 [info] <0.452.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:46:12.909 [info] <0.452.0> Starting master services on chat@bunlong
+
+2015-01-07 00:46:12.961 [info] <0.499.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:46:13.004 [warning] <0.6.0> lager_error_logger_h dropped 3 messages in the last second that exceeded the limit of 50 messages/sec
+2015-01-07 00:46:13.004 [info] <0.546.0> Starting Boss in development mode....
+
+2015-01-07 00:46:13.005 [info] <0.546.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:46:13.009 [info] <0.546.0> Starting master services on chat@bunlong
+
+2015-01-07 00:46:13.011 [info] <0.546.0> SSL:[]
+
+2015-01-07 00:46:13.011 [info] <0.546.0> Starting cowboy... on chat@bunlong
+
+2015-01-07 00:46:13.011 [info] <0.546.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-01-07 00:46:13.025 [info] <0.591.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:46:13.027 [error] <0.590.0> Supervisor {<0.590.0>,boss_router_sup} had child router_controller started with boss_router_controller:start_link([{application,chat},{controllers,["chat_chat_controller"]}]) at undefined exit with reason no function clause matching boss_router_controller:'-load/1-fun-0-'({"/",{"chat","live",[{channel,"public"}]}}, 1) line 98 in context start_error
+2015-01-07 00:46:13.027 [error] <0.591.0> CRASH REPORT Process <0.591.0> with 0 neighbours exited with reason: no function clause matching boss_router_controller:'-load/1-fun-0-'({"/",{"chat","live",[{channel,"public"}]}}, 1) line 98 in gen_server:init_it/6 line 330
+2015-01-07 00:46:13.028 [error] <0.94.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.546.0> exit with reason {shutdown,{failed_to_start_child,router_controller,{function_clause,[{boss_router_controller,'-load/1-fun-0-',[{"/",{"chat","live",[{channel,"public"}]}},1],[{file,"src/boss/boss_router_controller.erl"},{line,98}]},{lists,foldl,3,[{file,"lists.erl"},{line,1261}]},{boss_router_controller,init,1,[{file,"src/boss/boss_router_controller.erl"},{line,49}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}} in context child_terminated
+2015-01-07 00:46:13.028 [error] <0.561.0> Supervisor {<0.561.0>,poolboy_sup} had child boss_session_controller started with boss_session_controller:start_link([{name,{local,boss_session_pool}},{worker_module,boss_session_controller},{size,20},{max_overflow,...},...]) at undefined exit with reason shutdown in context shutdown_error
+2015-01-07 00:46:13.303 [info] <0.593.0> Starting Boss in development mode....
+
+2015-01-07 00:46:13.303 [info] <0.593.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:46:13.308 [info] <0.593.0> Starting master services on chat@bunlong
+
+2015-01-07 00:46:13.310 [info] <0.593.0> SSL:[]
+
+2015-01-07 00:46:13.311 [info] <0.593.0> Starting cowboy... on chat@bunlong
+
+2015-01-07 00:46:13.311 [info] <0.593.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-01-07 00:46:13.331 [info] <0.638.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:46:13.332 [error] <0.638.0> CRASH REPORT Process <0.638.0> with 0 neighbours exited with reason: no function clause matching boss_router_controller:'-load/1-fun-0-'({"/",{"chat","live",[{channel,"public"}]}}, 1) line 98 in gen_server:init_it/6 line 330
+2015-01-07 00:46:13.332 [error] <0.637.0> Supervisor {<0.637.0>,boss_router_sup} had child router_controller started with boss_router_controller:start_link([{application,chat},{controllers,["chat_chat_controller"]}]) at undefined exit with reason no function clause matching boss_router_controller:'-load/1-fun-0-'({"/",{"chat","live",[{channel,"public"}]}}, 1) line 98 in context start_error
+2015-01-07 00:46:13.333 [error] <0.94.0> Supervisor boss_sup had child boss_web_controller started with boss_web_controller:start_link([{ip,"0.0.0.0"},{port,8001}]) at <0.593.0> exit with reason {shutdown,{failed_to_start_child,router_controller,{function_clause,[{boss_router_controller,'-load/1-fun-0-',[{"/",{"chat","live",[{channel,"public"}]}},1],[{file,"src/boss/boss_router_controller.erl"},{line,98}]},{lists,foldl,3,[{file,"lists.erl"},{line,1261}]},{boss_router_controller,init,1,[{file,"src/boss/boss_router_controller.erl"},{line,49}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}} in context child_terminated
+2015-01-07 00:46:13.333 [error] <0.608.0> Supervisor {<0.608.0>,poolboy_sup} had child boss_session_controller started with boss_session_controller:start_link([{name,{local,boss_session_pool}},{worker_module,boss_session_controller},{size,20},{max_overflow,...},...]) at undefined exit with reason shutdown in context shutdown_error
+2015-01-07 00:46:13.586 [info] <0.640.0> Starting Boss in development mode....
+
+2015-01-07 00:46:13.586 [info] <0.640.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:46:13.590 [info] <0.640.0> Starting master services on chat@bunlong
+
+2015-01-07 00:46:13.592 [info] <0.640.0> SSL:[]
+
+2015-01-07 00:46:13.592 [info] <0.640.0> Starting cowboy... on chat@bunlong
+
+2015-01-07 00:46:13.592 [info] <0.640.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-01-07 00:46:13.624 [info] <0.687.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:46:30.578 [warning] <0.6.0> lager_error_logger_h dropped 1 messages in the last second that exceeded the limit of 50 messages/sec
+2015-01-07 00:46:30.578 [error] emulator Error in process <0.734.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:46:30.578 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.734.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:46:31.925 [error] emulator Error in process <0.735.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:46:31.926 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.735.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:46:32.476 [error] emulator Error in process <0.736.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:46:32.476 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.736.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:46:32.903 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.737.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:46:32.903 [error] emulator Error in process <0.737.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:46:35.314 [error] emulator Error in process <0.738.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:46:35.315 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.738.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:49:03.543 [error] emulator Error in process <0.740.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:49:03.543 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.740.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:49:07.745 [error] emulator Error in process <0.741.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:49:07.746 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.741.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:49:09.059 [error] emulator Error in process <0.742.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:49:09.060 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.742.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:49:11.639 [error] emulator Error in process <0.743.0> on node 'chat@bunlong' with exit value: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+
+2015-01-07 00:49:11.639 [error] <0.158.0> Ranch listener boss_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.743.0> exit with reason: {{badmatch,false},[{cowboy_router,execute,2,[{file,"src/cowboy_router.erl"},{line,170}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]}
+
+2015-01-07 00:49:20.907 [info] <0.7.0> Application lager started on node chat@bunlong
+2015-01-07 00:49:20.922 [info] <0.7.0> Application crypto started on node chat@bunlong
+2015-01-07 00:49:20.945 [info] <0.7.0> Application mimetypes started on node chat@bunlong
+2015-01-07 00:49:20.954 [notice] <0.63.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2015-01-07 00:49:21.008 [info] <0.95.0> Starting Boss in development mode....
+
+2015-01-07 00:49:21.021 [info] <0.95.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2015-01-07 00:49:21.079 [info] <0.95.0> Starting master services on chat@bunlong
+
+2015-01-07 00:49:21.096 [info] <0.7.0> Application tinymq started on node chat@bunlong
+2015-01-07 00:49:21.128 [info] <0.95.0> SSL:[]
+
+2015-01-07 00:49:21.134 [info] <0.95.0> Starting cowboy... on chat@bunlong
+
+2015-01-07 00:49:21.147 [info] <0.7.0> Application cowlib started on node chat@bunlong
+2015-01-07 00:49:21.154 [info] <0.7.0> Application ranch started on node chat@bunlong
+2015-01-07 00:49:21.177 [info] <0.7.0> Application cowboy started on node chat@bunlong
+2015-01-07 00:49:21.177 [info] <0.95.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-01-07 00:49:21.272 [info] <0.95.0>@boss_load:load_all_modules:57 Loading application chat
+2015-01-07 00:49:21.292 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/mail/chat_outgoing_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:49:21.347 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/mail/chat_incoming_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:49:21.368 [info] <0.95.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:49:21.368 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:49:21.401 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/model/message.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:49:21.401 [info] <0.95.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,9},message},{',',{1,16}},{'[',{1,18}},{var,{1,19},'Id'},{',',{1,21}},{var,{1,23},'Text'},{',',{1,27}},{var,{1,29},'Nickname'},{',',{1,37}},{var,{1,39},'MessageTime'},{']',{1,50}},{')',{1,51}},{dot,{1,52}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,10},export_all},{')',{2,20}},{dot,{2,21}}]
+2015-01-07 00:49:21.402 [notice] <0.95.0>@boss_record_compiler:make_generated_forms:225 Module "message" Parameters ['Id','Text','Nickname','MessageTime'] Attributes[{compile,export_all}]
+2015-01-07 00:49:21.453 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/view/lib/tag_modules/chat_custom_tags.erl" with options [{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:49:21.468 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/view/lib/filter_modules/chat_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:49:21.470 [info] <0.95.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  chat_view_lib_tags
+2015-01-07 00:49:21.622 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/init/chat_01_news.erl" with options [{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]}] 
+2015-01-07 00:49:23.223 [notice] <0.276.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:49:23.226 [warning] <0.6.0> lager_error_logger_h dropped 33 messages in the last second that exceeded the limit of 50 messages/sec
+2015-01-07 00:49:23.226 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:49:23.252 [info] <0.276.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:49:23.252 [notice] <0.276.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:49:23.288 [info] <0.276.0> GET /chat/live/ [chat] 200 0ms
+2015-01-07 00:49:25.703 [notice] <0.281.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:49:25.704 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:49:25.724 [info] <0.281.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:49:25.725 [notice] <0.281.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:49:25.749 [error] <0.281.0> GET /chat/login/sdfsd [chat] 404 0ms
+2015-01-07 00:50:17.846 [notice] <0.284.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:50:17.847 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:50:17.869 [info] <0.284.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:50:17.869 [notice] <0.284.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:50:17.889 [error] <0.284.0> GET /chat/login [chat] 404 0ms
+2015-01-07 00:50:26.910 [notice] <0.289.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:50:26.911 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:50:26.913 [error] <0.289.0> GET /login [chat] 404 0ms
+2015-01-07 00:50:45.030 [notice] <0.293.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:50:45.031 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:50:45.032 [error] <0.293.0> GET /erlchat_chat_controller/login [chat] 404 0ms
+2015-01-07 00:50:47.629 [notice] <0.294.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:50:47.631 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:50:47.632 [error] <0.294.0> GET /erlchat_chat_controller/login/sdf [chat] 404 0ms
+2015-01-07 00:50:51.238 [notice] <0.297.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:50:51.240 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:50:51.243 [error] <0.297.0> GET /erlchat_chat_controller/login [chat] 404 0ms
+2015-01-07 00:51:25.797 [notice] <0.299.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:51:25.799 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:51:25.820 [info] <0.299.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:51:25.820 [notice] <0.299.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:51:25.839 [error] <0.299.0> GET /chat/login [chat] 404 0ms
+2015-01-07 00:51:50.856 [notice] <0.302.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:51:50.857 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:51:50.874 [info] <0.302.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:51:50.874 [notice] <0.302.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:51:50.894 [error] <0.302.0> GET /chat/login [chat] 404 0ms
+2015-01-07 00:51:52.272 [notice] <0.305.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:51:52.273 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:51:52.299 [info] <0.305.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:51:52.299 [notice] <0.305.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:51:52.323 [error] <0.305.0> GET /chat/login [chat] 404 0ms
+2015-01-07 00:51:53.330 [notice] <0.308.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:51:53.332 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:51:53.363 [info] <0.308.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:51:53.363 [notice] <0.308.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:51:53.380 [error] <0.308.0> GET /chat/login [chat] 404 0ms
+2015-01-07 00:52:18.805 [notice] <0.311.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:52:18.807 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:52:18.824 [info] <0.311.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:52:18.824 [notice] <0.311.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:52:18.860 [notice] <0.311.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:52:18.860 [notice] <0.311.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2015-01-07 00:52:18.861 [error] <0.311.0>@boss_web_controller:call_controller_action:366 Error in controller error function_clause [{chat_chat_controller,login,['GET',[],{chat_chat_controller,{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochicow_request,#Port<0.44461>,'GET',"/chat/login",'HTTP/1.1',{7,{"host",{"host","localhost:8001"},{"connection",{"connection","keep-alive"},{"cache-control",{"cache-control","max-age=0"},{"accept",{"accept","text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"},nil,{"accept-encoding",{"accept-encoding","gzip,deflate,sdch"},nil,{"accept-language",{"accept-language","en-GB,en-US;q=0.8,en;q=0.6,vi;q=0.4"},nil,nil}}},nil},nil},{"user-agent",{"user-agent","Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/34.0.1847.116 Chrome/34.0.1847.116 Safari/537.36"},nil,nil}}},<<>>},false,[],[],none}}],[{file,"/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl"},{line,16}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]},{boss_web_controller_handle_request,build_dynamic_response,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,122}]}]
+2015-01-07 00:52:18.862 [info] <0.311.0> GET /chat/login [chat] 200 0ms
+2015-01-07 00:52:20.491 [notice] <0.314.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:52:20.497 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:52:20.501 [notice] <0.314.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:52:20.501 [notice] <0.314.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2015-01-07 00:52:20.502 [error] <0.314.0>@boss_web_controller:call_controller_action:366 Error in controller error function_clause [{chat_chat_controller,login,['GET',[],{chat_chat_controller,{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochicow_request,#Port<0.45210>,'GET',"/chat/login",'HTTP/1.1',{7,{"host",{"host","localhost:8001"},{"connection",{"connection","keep-alive"},{"cache-control",{"cache-control","max-age=0"},{"accept",{"accept","text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"},nil,{"accept-encoding",{"accept-encoding","gzip,deflate,sdch"},nil,{"accept-language",{"accept-language","en-GB,en-US;q=0.8,en;q=0.6,vi;q=0.4"},nil,nil}}},nil},nil},{"user-agent",{"user-agent","Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/34.0.1847.116 Chrome/34.0.1847.116 Safari/537.36"},nil,nil}}},<<>>},false,[],[],none}}],[{file,"/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl"},{line,16}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]},{boss_web_controller_handle_request,build_dynamic_response,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,122}]}]
+2015-01-07 00:52:20.503 [info] <0.314.0> GET /chat/login [chat] 200 0ms
+2015-01-07 00:52:33.268 [notice] <0.316.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:52:33.270 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:52:33.273 [info] <0.316.0>@boss_controller_compiler:compile:59 Compile controller /home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl
+2015-01-07 00:52:33.273 [notice] <0.316.0>@boss_compiler:compile:47 Compile file "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-01-07 00:52:33.291 [notice] <0.316.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:52:33.291 [notice] <0.316.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2015-01-07 00:52:33.292 [error] <0.316.0>@boss_web_controller:call_controller_action:366 Error in controller error function_clause [{chat_chat_controller,login,['GET',[],{chat_chat_controller,{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochicow_request,#Port<0.46022>,'GET',"/chat/login",'HTTP/1.1',{7,{"host",{"host","localhost:8001"},{"connection",{"connection","keep-alive"},{"cache-control",{"cache-control","max-age=0"},{"accept",{"accept","text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"},nil,{"accept-encoding",{"accept-encoding","gzip,deflate,sdch"},nil,{"accept-language",{"accept-language","en-GB,en-US;q=0.8,en;q=0.6,vi;q=0.4"},nil,nil}}},nil},nil},{"user-agent",{"user-agent","Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/34.0.1847.116 Chrome/34.0.1847.116 Safari/537.36"},nil,nil}}},<<>>},false,[],[],none}}],[{file,"/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl"},{line,16}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]},{boss_web_controller_handle_request,build_dynamic_response,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,122}]}]
+2015-01-07 00:52:33.293 [info] <0.316.0> GET /chat/login [chat] 200 0ms
+2015-01-07 00:52:34.381 [notice] <0.319.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:52:34.385 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:52:34.391 [notice] <0.319.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:52:34.391 [notice] <0.319.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2015-01-07 00:52:34.391 [error] <0.319.0>@boss_web_controller:call_controller_action:366 Error in controller error function_clause [{chat_chat_controller,login,['GET',[],{chat_chat_controller,{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochicow_request,#Port<0.46836>,'GET',"/chat/login",'HTTP/1.1',{7,{"host",{"host","localhost:8001"},{"connection",{"connection","keep-alive"},{"cache-control",{"cache-control","max-age=0"},{"accept",{"accept","text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"},nil,{"accept-encoding",{"accept-encoding","gzip,deflate,sdch"},nil,{"accept-language",{"accept-language","en-GB,en-US;q=0.8,en;q=0.6,vi;q=0.4"},nil,nil}}},nil},nil},{"user-agent",{"user-agent","Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/34.0.1847.116 Chrome/34.0.1847.116 Safari/537.36"},nil,nil}}},<<>>},false,[],[],none}}],[{file,"/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl"},{line,16}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]},{boss_web_controller_handle_request,build_dynamic_response,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,122}]}]
+2015-01-07 00:52:34.392 [info] <0.319.0> GET /chat/login [chat] 200 0ms
+2015-01-07 00:52:35.501 [notice] <0.321.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:52:35.502 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:52:35.507 [notice] <0.321.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:52:35.507 [notice] <0.321.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2015-01-07 00:52:35.508 [error] <0.321.0>@boss_web_controller:call_controller_action:366 Error in controller error function_clause [{chat_chat_controller,login,['GET',[],{chat_chat_controller,{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochicow_request,#Port<0.46838>,'GET',"/chat/login",'HTTP/1.1',{7,{"host",{"host","localhost:8001"},{"connection",{"connection","keep-alive"},{"cache-control",{"cache-control","max-age=0"},{"accept",{"accept","text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"},nil,{"accept-encoding",{"accept-encoding","gzip,deflate,sdch"},nil,{"accept-language",{"accept-language","en-GB,en-US;q=0.8,en;q=0.6,vi;q=0.4"},nil,nil}}},nil},nil},{"user-agent",{"user-agent","Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/34.0.1847.116 Chrome/34.0.1847.116 Safari/537.36"},nil,nil}}},<<>>},false,[],[],none}}],[{file,"/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/src/controller/chat_chat_controller.erl"},{line,16}]},{boss_web_controller,call_controller_action,3,[{file,"src/boss/boss_web_controller.erl"},{line,363}]},{boss_web_controller,apply_action,4,[{file,"src/boss/boss_web_controller.erl"},{line,355}]},{boss_web_controller,execute_action_inner,9,[{file,"src/boss/boss_web_controller.erl"},{line,334}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,242}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]},{boss_web_controller_handle_request,build_dynamic_response,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,122}]}]
+2015-01-07 00:52:35.509 [info] <0.321.0> GET /chat/login [chat] 200 0ms
+2015-01-07 00:52:46.010 [notice] <0.323.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:52:46.011 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:52:46.022 [notice] <0.323.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:52:46.022 [notice] <0.323.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 00:52:46.028 [info] <0.323.0> GET /chat/live/public [chat] 200 0ms
+2015-01-07 00:52:48.691 [notice] <0.326.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:52:48.692 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:52:48.695 [notice] <0.326.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:52:48.695 [notice] <0.326.0>@boss_controller_adapter_pmod:action:92 Tokens ["bunlong"]
+2015-01-07 00:52:48.696 [info] <0.326.0> GET /chat/login/bunlong [chat] 200 0ms
+2015-01-07 00:52:48.731 [notice] <0.327.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:52:48.733 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:52:48.737 [notice] <0.327.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:52:48.737 [notice] <0.327.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","0"]
+2015-01-07 00:52:48.757 [info] <0.327.0> GET /chat/receive_chat/public/0 [chat] 200 0ms
+2015-01-07 00:52:48.775 [notice] <0.330.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:52:48.777 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:52:48.784 [notice] <0.330.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:52:48.784 [notice] <0.330.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420566768737855"]
+2015-01-07 00:52:56.183 [notice] <0.332.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:52:56.184 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:52:56.189 [notice] <0.332.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2015-01-07 00:52:56.189 [notice] <0.332.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 00:52:56.191 [info] <0.332.0> POST /chat/send_message/public [chat] 200 0ms
+2015-01-07 00:52:56.191 [info] <0.330.0> GET /chat/receive_chat/public/1420566768737855 [chat] 200 0ms
+2015-01-07 00:52:56.202 [notice] <0.334.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:52:56.204 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:52:56.219 [notice] <0.334.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:52:56.219 [notice] <0.334.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420566776190095"]
+2015-01-07 00:53:18.265 [notice] <0.336.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:53:18.266 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:53:18.270 [notice] <0.336.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:53:18.270 [notice] <0.336.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 00:53:18.274 [info] <0.336.0> GET /chat/live/public [chat] 200 0ms
+2015-01-07 00:53:27.521 [notice] <0.341.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:53:27.522 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:53:27.528 [notice] <0.341.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:53:27.528 [notice] <0.341.0>@boss_controller_adapter_pmod:action:92 Tokens ["jingLong"]
+2015-01-07 00:53:27.530 [info] <0.334.0> GET /chat/receive_chat/public/1420566776190095 [chat] 200 0ms
+2015-01-07 00:53:27.530 [info] <0.341.0> GET /chat/login/jingLong [chat] 200 0ms
+2015-01-07 00:53:27.552 [notice] <0.343.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:53:27.553 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:53:27.559 [notice] <0.343.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:53:27.559 [notice] <0.343.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420566807529093"]
+2015-01-07 00:53:27.575 [notice] <0.345.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:53:27.576 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:53:27.579 [notice] <0.345.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:53:27.579 [notice] <0.345.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","0"]
+2015-01-07 00:53:27.582 [info] <0.345.0> GET /chat/receive_chat/public/0 [chat] 200 0ms
+2015-01-07 00:53:27.601 [notice] <0.347.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:53:27.602 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:53:27.612 [notice] <0.347.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:53:27.612 [notice] <0.347.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420566807579561"]
+2015-01-07 00:53:34.344 [notice] <0.349.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:53:34.345 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:53:34.348 [notice] <0.349.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2015-01-07 00:53:34.348 [notice] <0.349.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 00:53:34.350 [info] <0.347.0> GET /chat/receive_chat/public/1420566807579561 [chat] 200 0ms
+2015-01-07 00:53:34.350 [info] <0.343.0> GET /chat/receive_chat/public/1420566807529093 [chat] 200 0ms
+2015-01-07 00:53:34.352 [info] <0.349.0> POST /chat/send_message/public [chat] 200 0ms
+2015-01-07 00:53:34.369 [notice] <0.351.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:53:34.370 [notice] <0.352.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:53:34.371 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:53:34.373 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:53:34.383 [notice] <0.351.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:53:34.383 [notice] <0.351.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420566814349216"]
+2015-01-07 00:53:34.385 [notice] <0.352.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:53:34.385 [notice] <0.352.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420566814349216"]
+2015-01-07 00:53:41.757 [notice] <0.355.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:53:41.758 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:53:41.766 [notice] <0.355.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2015-01-07 00:53:41.766 [notice] <0.355.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 00:53:41.770 [info] <0.351.0> GET /chat/receive_chat/public/1420566814349216 [chat] 200 0ms
+2015-01-07 00:53:41.770 [info] <0.352.0> GET /chat/receive_chat/public/1420566814349216 [chat] 200 0ms
+2015-01-07 00:53:41.771 [info] <0.355.0> POST /chat/send_message/public [chat] 200 0ms
+2015-01-07 00:53:41.789 [notice] <0.357.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:53:41.790 [notice] <0.358.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:53:41.791 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:53:41.792 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:53:41.803 [notice] <0.357.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:53:41.803 [notice] <0.357.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420566821766876"]
+2015-01-07 00:53:41.805 [notice] <0.358.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:53:41.805 [notice] <0.358.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420566821766876"]
+2015-01-07 00:54:06.116 [notice] <0.361.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:54:06.118 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:54:06.120 [error] <0.361.0> DELETE /login/bunlong [chat] 404 0ms
+2015-01-07 00:54:07.301 [notice] <0.363.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:54:07.301 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:54:07.302 [error] <0.363.0> DELETE /login/bunlong [chat] 404 0ms
+2015-01-07 00:54:07.999 [notice] <0.365.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:54:08.000 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:54:08.002 [error] <0.365.0> DELETE /login/bunlong [chat] 404 0ms
+2015-01-07 00:54:08.227 [notice] <0.367.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:54:08.229 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:54:08.230 [error] <0.367.0> DELETE /login/bunlong [chat] 404 0ms
+2015-01-07 00:54:08.391 [notice] <0.369.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:54:08.392 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:54:08.394 [error] <0.369.0> DELETE /login/bunlong [chat] 404 0ms
+2015-01-07 00:54:08.674 [notice] <0.371.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:54:08.675 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:54:08.677 [error] <0.371.0> DELETE /login/bunlong [chat] 404 0ms
+2015-01-07 00:54:08.949 [notice] <0.373.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:54:08.951 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:54:08.952 [error] <0.373.0> DELETE /login/bunlong [chat] 404 0ms
+2015-01-07 00:54:09.321 [notice] <0.375.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:54:09.322 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:54:09.324 [error] <0.375.0> DELETE /login/bunlong [chat] 404 0ms
+2015-01-07 00:54:12.872 [notice] <0.377.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:54:12.874 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:54:12.875 [error] <0.377.0> DELETE /login/bunlong [chat] 404 0ms
+2015-01-07 00:54:30.630 [notice] <0.379.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:54:30.631 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:54:30.634 [notice] <0.379.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2015-01-07 00:54:30.634 [notice] <0.379.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 00:54:30.639 [info] <0.357.0> GET /chat/receive_chat/public/1420566821766876 [chat] 200 0ms
+2015-01-07 00:54:30.639 [info] <0.358.0> GET /chat/receive_chat/public/1420566821766876 [chat] 200 0ms
+2015-01-07 00:54:30.641 [info] <0.379.0> POST /chat/send_message/public [chat] 200 0ms
+2015-01-07 00:54:30.652 [notice] <0.381.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:54:30.653 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:54:30.660 [notice] <0.381.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:54:30.660 [notice] <0.381.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420566870635480"]
+2015-01-07 00:54:30.675 [notice] <0.383.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:54:30.677 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:54:30.681 [notice] <0.383.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:54:30.681 [notice] <0.383.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420566870635480"]
+2015-01-07 00:54:45.713 [notice] <0.385.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:54:45.721 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:54:45.727 [notice] <0.385.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2015-01-07 00:54:45.727 [notice] <0.385.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 00:54:45.728 [info] <0.381.0> GET /chat/receive_chat/public/1420566870635480 [chat] 200 0ms
+2015-01-07 00:54:45.728 [info] <0.383.0> GET /chat/receive_chat/public/1420566870635480 [chat] 200 0ms
+2015-01-07 00:54:45.729 [info] <0.385.0> POST /chat/send_message/public [chat] 200 0ms
+2015-01-07 00:54:45.738 [notice] <0.387.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:54:45.740 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:54:45.743 [notice] <0.389.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:54:45.749 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:54:45.755 [notice] <0.387.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:54:45.755 [notice] <0.387.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420566885727166"]
+2015-01-07 00:54:45.767 [notice] <0.389.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:54:45.767 [notice] <0.389.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420566885727166"]
+2015-01-07 00:55:57.985 [notice] <0.391.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:55:57.986 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:55:57.987 [notice] <0.392.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:55:57.989 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:55:57.999 [notice] <0.391.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:55:57.999 [notice] <0.391.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420566885727166"]
+2015-01-07 00:55:58.003 [notice] <0.392.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:55:58.003 [notice] <0.392.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 00:55:58.006 [info] <0.392.0> GET /chat/live/public [chat] 200 0ms
+2015-01-07 00:55:58.019 [notice] <0.393.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:55:58.020 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:55:58.021 [error] <0.393.0> DELETE /login/bunlong [chat] 404 0ms
+2015-01-07 00:56:00.349 [notice] <0.400.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:56:00.353 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:56:00.358 [notice] <0.400.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:56:00.358 [notice] <0.400.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 00:56:00.362 [info] <0.400.0> GET /chat/live/public [chat] 200 0ms
+2015-01-07 00:57:19.304 [notice] <0.405.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:57:19.308 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:57:19.321 [notice] <0.405.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:57:19.321 [notice] <0.405.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 00:57:19.357 [info] <0.405.0> GET /chat/live/public [chat] 200 0ms
+2015-01-07 00:57:54.430 [notice] <0.413.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:57:54.432 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:57:54.439 [notice] <0.413.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:57:54.439 [notice] <0.413.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 00:57:54.475 [info] <0.413.0> GET /chat/live/public [chat] 200 0ms
+2015-01-07 00:57:55.267 [notice] <0.416.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:57:59.790 [notice] <0.420.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:57:59.791 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:57:59.794 [notice] <0.420.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:57:59.794 [notice] <0.420.0>@boss_controller_adapter_pmod:action:92 Tokens ["Bunlong Van"]
+2015-01-07 00:57:59.795 [info] <0.420.0> GET /chat/login/Bunlong%20Van [chat] 200 0ms
+2015-01-07 00:57:59.823 [notice] <0.422.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:57:59.825 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:57:59.835 [notice] <0.422.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:57:59.835 [notice] <0.422.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","0"]
+2015-01-07 00:57:59.836 [info] <0.422.0> GET /chat/receive_chat/public/0 [chat] 200 0ms
+2015-01-07 00:57:59.851 [notice] <0.424.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:57:59.854 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:57:59.862 [notice] <0.424.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:57:59.862 [notice] <0.424.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567079835571"]
+2015-01-07 00:58:25.733 [notice] <0.426.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:58:25.734 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:58:25.742 [notice] <0.426.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2015-01-07 00:58:25.742 [notice] <0.426.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 00:58:25.744 [info] <0.424.0> GET /chat/receive_chat/public/1420567079835571 [chat] 200 0ms
+2015-01-07 00:58:25.747 [info] <0.426.0> POST /chat/send_message/public [chat] 200 0ms
+2015-01-07 00:58:25.754 [notice] <0.428.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:58:25.755 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:58:25.764 [notice] <0.428.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:58:25.764 [notice] <0.428.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567105742887"]
+2015-01-07 00:58:31.991 [notice] <0.430.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:58:31.992 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:58:31.996 [notice] <0.430.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2015-01-07 00:58:31.996 [notice] <0.430.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 00:58:31.998 [info] <0.430.0> POST /chat/send_message/public [chat] 200 0ms
+2015-01-07 00:58:31.998 [info] <0.428.0> GET /chat/receive_chat/public/1420567105742887 [chat] 200 0ms
+2015-01-07 00:58:32.018 [notice] <0.432.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:58:32.020 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:58:32.028 [notice] <0.432.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:58:32.028 [notice] <0.432.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567111996689"]
+2015-01-07 00:59:25.091 [notice] <0.434.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:59:25.093 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:59:25.103 [notice] <0.434.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2015-01-07 00:59:25.103 [notice] <0.434.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 00:59:25.106 [info] <0.432.0> GET /chat/receive_chat/public/1420567111996689 [chat] 200 0ms
+2015-01-07 00:59:25.108 [info] <0.434.0> POST /chat/send_message/public [chat] 200 0ms
+2015-01-07 00:59:25.117 [notice] <0.436.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 00:59:25.118 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 00:59:25.132 [notice] <0.436.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 00:59:25.132 [notice] <0.436.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567165104416"]
+2015-01-07 01:01:01.407 [notice] <0.438.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:01:01.408 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:01:01.412 [notice] <0.438.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:01:01.412 [notice] <0.438.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 01:01:01.450 [info] <0.438.0> GET /chat/live/public [chat] 200 0ms
+2015-01-07 01:01:08.729 [notice] <0.446.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:01:08.729 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:01:08.733 [notice] <0.446.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:01:08.737 [notice] <0.446.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 01:01:08.747 [info] <0.446.0> GET /chat/live/public [chat] 200 0ms
+2015-01-07 01:01:14.730 [notice] <0.448.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:01:14.732 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:01:14.737 [notice] <0.448.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:01:14.737 [notice] <0.448.0>@boss_controller_adapter_pmod:action:92 Tokens ["JingLong"]
+2015-01-07 01:01:14.740 [info] <0.448.0> GET /chat/login/JingLong [chat] 200 0ms
+2015-01-07 01:01:14.778 [notice] <0.450.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:01:14.779 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:01:14.784 [notice] <0.450.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:01:14.784 [notice] <0.450.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","0"]
+2015-01-07 01:01:14.786 [info] <0.450.0> GET /chat/receive_chat/public/0 [chat] 200 0ms
+2015-01-07 01:01:14.802 [notice] <0.452.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:01:14.803 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:01:14.809 [notice] <0.452.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:01:14.809 [notice] <0.452.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567274784534"]
+2015-01-07 01:01:21.929 [notice] <0.454.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:01:21.930 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:01:21.934 [notice] <0.454.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2015-01-07 01:01:21.934 [notice] <0.454.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 01:01:21.937 [info] <0.452.0> GET /chat/receive_chat/public/1420567274784534 [chat] 200 0ms
+2015-01-07 01:01:21.940 [info] <0.454.0> POST /chat/send_message/public [chat] 200 0ms
+2015-01-07 01:01:21.949 [notice] <0.456.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:01:21.951 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:01:21.954 [notice] <0.456.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:01:21.954 [notice] <0.456.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567281934877"]
+2015-01-07 01:01:23.807 [notice] <0.458.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:01:23.808 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:01:23.813 [notice] <0.458.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:01:23.814 [notice] <0.458.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567165104416"]
+2015-01-07 01:01:23.820 [info] <0.458.0> GET /chat/receive_chat/public/1420567165104416 [chat] 200 0ms
+2015-01-07 01:01:23.820 [notice] <0.459.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:01:23.821 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:01:23.835 [notice] <0.459.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:01:23.835 [notice] <0.459.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 01:01:23.836 [notice] <0.460.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:01:23.838 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:01:23.840 [info] <0.459.0> GET /chat/live/public [chat] 200 0ms
+2015-01-07 01:01:23.845 [notice] <0.460.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:01:23.845 [notice] <0.460.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567283816707"]
+2015-01-07 01:01:28.720 [notice] <0.466.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:01:28.721 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:01:28.726 [notice] <0.466.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:01:28.726 [notice] <0.466.0>@boss_controller_adapter_pmod:action:92 Tokens ["Bunlong Van"]
+2015-01-07 01:01:28.730 [error] <0.460.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: exit:normal. Stacktrace: [{mochicow_request,send,2,[{file,"src/mochicow_request.erl"},{line,156}]},{mochicow_request,respond,2,[{file,"src/mochicow_request.erl"},{line,406}]},{boss_web_controller_handle_request,handle_request,3,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]
+2015-01-07 01:01:28.730 [info] <0.460.0> GET /chat/receive_chat/public/1420567283816707 [chat] 200 0ms
+2015-01-07 01:01:28.730 [info] <0.456.0> GET /chat/receive_chat/public/1420567281934877 [chat] 200 0ms
+2015-01-07 01:01:28.731 [info] <0.466.0> GET /chat/login/Bunlong%20Van [chat] 200 0ms
+2015-01-07 01:01:28.744 [notice] <0.465.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:01:28.745 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:01:28.749 [notice] <0.465.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:01:28.749 [notice] <0.465.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567288726932"]
+2015-01-07 01:01:28.761 [notice] <0.461.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:01:28.764 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:01:28.767 [notice] <0.461.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:01:28.767 [notice] <0.461.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","0"]
+2015-01-07 01:01:28.768 [info] <0.461.0> GET /chat/receive_chat/public/0 [chat] 200 0ms
+2015-01-07 01:01:28.787 [notice] <0.470.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:01:28.789 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:01:28.795 [notice] <0.470.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:01:28.795 [notice] <0.470.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567288767555"]
+2015-01-07 01:01:43.308 [notice] <0.472.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:01:43.309 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:01:43.316 [notice] <0.472.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2015-01-07 01:01:43.316 [notice] <0.472.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 01:01:43.318 [info] <0.472.0> POST /chat/send_message/public [chat] 200 0ms
+2015-01-07 01:01:43.318 [info] <0.465.0> GET /chat/receive_chat/public/1420567288726932 [chat] 200 0ms
+2015-01-07 01:01:43.322 [info] <0.470.0> GET /chat/receive_chat/public/1420567288767555 [chat] 200 0ms
+2015-01-07 01:01:43.348 [notice] <0.474.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:01:43.348 [notice] <0.475.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:01:43.350 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:01:43.353 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:01:43.357 [notice] <0.475.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:01:43.357 [notice] <0.475.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567303316861"]
+2015-01-07 01:01:43.362 [notice] <0.474.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:01:43.362 [notice] <0.474.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567303316861"]
+2015-01-07 01:01:53.933 [notice] <0.478.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:01:53.937 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:01:53.945 [notice] <0.478.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2015-01-07 01:01:53.945 [notice] <0.478.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 01:01:53.946 [info] <0.475.0> GET /chat/receive_chat/public/1420567303316861 [chat] 200 0ms
+2015-01-07 01:01:53.946 [info] <0.474.0> GET /chat/receive_chat/public/1420567303316861 [chat] 200 0ms
+2015-01-07 01:01:53.948 [info] <0.478.0> POST /chat/send_message/public [chat] 200 0ms
+2015-01-07 01:01:53.960 [notice] <0.480.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:01:53.960 [notice] <0.481.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:01:53.962 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:01:53.963 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:01:53.974 [notice] <0.481.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:01:53.974 [notice] <0.481.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567313945652"]
+2015-01-07 01:01:53.976 [notice] <0.480.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:01:53.976 [notice] <0.480.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567313945652"]
+2015-01-07 01:03:07.164 [notice] <0.484.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:03:07.165 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:03:07.169 [notice] <0.484.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2015-01-07 01:03:07.169 [notice] <0.484.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 01:03:07.171 [info] <0.484.0> POST /chat/send_message/public [chat] 200 0ms
+2015-01-07 01:03:11.789 [notice] <0.487.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:03:11.793 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:03:11.797 [notice] <0.487.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2015-01-07 01:03:11.797 [notice] <0.487.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 01:03:11.799 [info] <0.487.0> POST /chat/send_message/public [chat] 200 0ms
+2015-01-07 01:03:25.292 [notice] <0.489.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:03:25.293 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:03:25.305 [notice] <0.489.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2015-01-07 01:03:25.305 [notice] <0.489.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 01:03:25.307 [info] <0.489.0> POST /chat/send_message/public [chat] 200 0ms
+2015-01-07 01:03:36.514 [notice] <0.491.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:03:36.515 [notice] <0.492.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:03:36.515 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:03:36.516 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:03:36.520 [notice] <0.491.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:03:36.520 [notice] <0.491.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567313945652"]
+2015-01-07 01:03:36.522 [info] <0.491.0> GET /chat/receive_chat/public/1420567313945652 [chat] 200 0ms
+2015-01-07 01:03:36.523 [notice] <0.492.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:03:36.523 [notice] <0.492.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 01:03:36.526 [info] <0.492.0> GET /chat/live/public [chat] 200 0ms
+2015-01-07 01:03:36.539 [notice] <0.493.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:03:36.540 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:03:36.557 [notice] <0.493.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:03:36.557 [notice] <0.493.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567416520919"]
+2015-01-07 01:03:39.680 [notice] <0.499.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:03:39.680 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:03:39.682 [notice] <0.495.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:03:39.683 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:03:39.687 [notice] <0.499.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:03:39.687 [notice] <0.499.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567313945652"]
+2015-01-07 01:03:39.689 [info] <0.499.0> GET /chat/receive_chat/public/1420567313945652 [chat] 200 0ms
+2015-01-07 01:03:39.701 [notice] <0.495.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:03:39.701 [notice] <0.495.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 01:03:39.705 [info] <0.495.0> GET /chat/live/public [chat] 200 0ms
+2015-01-07 01:03:39.720 [notice] <0.494.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:03:39.720 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:03:39.725 [notice] <0.494.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:03:39.725 [notice] <0.494.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567419688118"]
+2015-01-07 01:07:40.911 [notice] <0.507.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:07:40.912 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:07:40.915 [notice] <0.507.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:07:40.915 [notice] <0.507.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 01:07:40.918 [info] <0.507.0> GET /chat/live/public [chat] 200 0ms
+2015-01-07 01:07:41.882 [notice] <0.512.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:07:45.911 [notice] <0.511.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:07:45.912 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:07:45.918 [notice] <0.511.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:07:45.918 [notice] <0.511.0>@boss_controller_adapter_pmod:action:92 Tokens ["Bunlong"]
+2015-01-07 01:07:45.922 [info] <0.511.0> GET /chat/login/Bunlong [chat] 200 0ms
+2015-01-07 01:07:46.012 [notice] <0.514.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:07:46.013 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:07:46.025 [notice] <0.514.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:07:46.025 [notice] <0.514.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","0"]
+2015-01-07 01:07:46.028 [info] <0.514.0> GET /chat/receive_chat/public/0 [chat] 200 0ms
+2015-01-07 01:07:46.082 [notice] <0.516.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:07:46.083 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:07:46.086 [notice] <0.516.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:07:46.086 [notice] <0.516.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567666025656"]
+2015-01-07 01:08:03.354 [notice] <0.518.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:08:03.355 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:08:03.365 [notice] <0.518.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:08:03.365 [notice] <0.518.0>@boss_controller_adapter_pmod:action:92 Tokens ["JingLong"]
+2015-01-07 01:08:03.367 [info] <0.516.0> GET /chat/receive_chat/public/1420567666025656 [chat] 200 0ms
+2015-01-07 01:08:03.368 [info] <0.518.0> GET /chat/login/JingLong [chat] 200 0ms
+2015-01-07 01:08:03.396 [notice] <0.520.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:08:03.396 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:08:03.400 [notice] <0.520.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:08:03.400 [notice] <0.520.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","0"]
+2015-01-07 01:08:03.401 [info] <0.520.0> GET /chat/receive_chat/public/0 [chat] 200 0ms
+2015-01-07 01:08:03.411 [notice] <0.522.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:08:03.412 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:08:03.425 [notice] <0.522.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:08:03.425 [notice] <0.522.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567683365594"]
+2015-01-07 01:08:03.426 [notice] <0.524.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:08:03.428 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:08:03.433 [notice] <0.524.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:08:03.433 [notice] <0.524.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567683400612"]
+2015-01-07 01:08:24.771 [notice] <0.526.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:08:24.772 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:08:24.777 [notice] <0.526.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2015-01-07 01:08:24.778 [notice] <0.526.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 01:08:24.780 [info] <0.524.0> GET /chat/receive_chat/public/1420567683400612 [chat] 200 0ms
+2015-01-07 01:08:24.781 [info] <0.522.0> GET /chat/receive_chat/public/1420567683365594 [chat] 200 0ms
+2015-01-07 01:08:24.783 [info] <0.526.0> POST /chat/send_message/public [chat] 200 0ms
+2015-01-07 01:08:24.795 [notice] <0.529.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:08:24.796 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:08:24.804 [notice] <0.529.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:08:24.804 [notice] <0.529.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567704778245"]
+2015-01-07 01:08:24.816 [notice] <0.528.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:08:24.816 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:08:24.820 [notice] <0.528.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:08:24.820 [notice] <0.528.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567704778245"]
+2015-01-07 01:08:36.293 [notice] <0.532.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:08:36.294 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:08:36.299 [notice] <0.532.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2015-01-07 01:08:36.299 [notice] <0.532.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 01:08:36.302 [info] <0.528.0> GET /chat/receive_chat/public/1420567704778245 [chat] 200 0ms
+2015-01-07 01:08:36.302 [info] <0.529.0> GET /chat/receive_chat/public/1420567704778245 [chat] 200 0ms
+2015-01-07 01:08:36.305 [info] <0.532.0> POST /chat/send_message/public [chat] 200 0ms
+2015-01-07 01:08:36.324 [notice] <0.534.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:08:36.325 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:08:36.331 [notice] <0.534.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:08:36.331 [notice] <0.534.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567716299982"]
+2015-01-07 01:08:36.350 [notice] <0.536.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:08:36.351 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:08:36.353 [notice] <0.536.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:08:36.353 [notice] <0.536.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567716299982"]
+2015-01-07 01:09:00.416 [notice] <0.538.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:09:00.420 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:09:00.425 [notice] <0.538.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2015-01-07 01:09:00.425 [notice] <0.538.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 01:09:00.430 [info] <0.534.0> GET /chat/receive_chat/public/1420567716299982 [chat] 200 0ms
+2015-01-07 01:09:00.430 [info] <0.536.0> GET /chat/receive_chat/public/1420567716299982 [chat] 200 0ms
+2015-01-07 01:09:00.432 [info] <0.538.0> POST /chat/send_message/public [chat] 200 0ms
+2015-01-07 01:09:00.441 [notice] <0.540.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:09:00.443 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:09:00.450 [notice] <0.540.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:09:00.450 [notice] <0.540.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567740426396"]
+2015-01-07 01:09:00.469 [notice] <0.542.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:09:00.470 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:09:00.473 [notice] <0.542.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2015-01-07 01:09:00.473 [notice] <0.542.0>@boss_controller_adapter_pmod:action:92 Tokens ["public","1420567740426396"]
+2015-01-07 01:10:01.965 [notice] <0.544.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:10:01.966 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:10:01.969 [notice] <0.544.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2015-01-07 01:10:01.969 [notice] <0.544.0>@boss_controller_adapter_pmod:action:92 Tokens ["public"]
+2015-01-07 01:10:01.971 [info] <0.544.0> POST /chat/send_message/public [chat] 200 0ms
+2015-01-07 01:10:42.486 [notice] <0.547.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:10:42.487 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:10:42.489 [error] <0.547.0> DELETE /login/JingLong [chat] 404 0ms
+2015-01-07 01:10:44.647 [notice] <0.549.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath chat
+2015-01-07 01:10:44.648 [info] <0.262.0> Loading routes from "/home/bunlong/workspace/my_project/geekhmerlab/chicagoboss/chat/priv/chat.routes" ....
+2015-01-07 01:10:44.649 [error] <0.549.0> DELETE /login/Bunlong [chat] 404 0ms
+2015-01-07 01:10:44.649 [error] <0.549.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: exit:normal. Stacktrace: [{mochicow_request,send,2,[{file,"src/mochicow_request.erl"},{line,156}]},{mochicow_request,respond,2,[{file,"src/mochicow_request.erl"},{line,406}]},{boss_web_controller_handle_request,handle_request,3,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]
+2015-01-07 01:10:52.719 [error] <0.110.0> Supervisor {<0.110.0>,poolboy_sup} had child boss_session_controller started with boss_session_controller:start_link([{name,{local,boss_session_pool}},{worker_module,boss_session_controller},{size,20},{max_overflow,...},...]) at undefined exit with reason shutdown in context shutdown_error
